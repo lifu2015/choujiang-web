@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.prize-image {
+    max-width: 400px;
+    max-height: 300px;
+    object-fit: contain;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.winner-names {
+    font-size: 1.2rem;
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.result-container {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.btn {
+    min-width: 120px;
+}
+
+.form-check-inline {
+    margin-right: 20px;
+}
